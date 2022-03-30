@@ -25,34 +25,11 @@
 0.0.0.0 apps.corel.com
 0.0.0.0 origin-mc.corel.com
 0.0.0.0 iws.corel.com
-0.0.0.0 compute-1.amazonaws.com  
-0.0.0.0 ipm.corel.com  
-0.0.0.0 dev1.ipm.corel.public.corel.net 
+0.0.0.0 compute-1.amazonaws.com
+0.0.0.0 ipm.corel.com
+0.0.0.0 dev1.ipm.corel.public.corel.net
 
 #<block-adobe>
-127.0.0.1 activate.adobe.com
-127.0.0.1 practivate.adobe.com
-127.0.0.1 ereg.adobe.com
-127.0.0.1 wip3.adobe.com
-127.0.0.1 activate.wip3.adobe.com
-127.0.0.1 3dns-3.adobe.com
-127.0.0.1 3dns-2.adobe.com
-127.0.0.1 adobe-dns.adobe.com
-127.0.0.1 adobe-dns-2.adobe.com
-127.0.0.1 adobe-dns-3.adobe.com
-127.0.0.1 ereg.wip3.adobe.com
-127.0.0.1 activate-sea.adobe.com
-127.0.0.1 wwis-dubc1-vip60.adobe.com
-127.0.0.1 activate-sjc0.adobe.com
-127.0.0.1 hl2rcv.adobe.com
-127.0.0.1 lm.licenses.adobe.com
-127.0.0.1 na2m-pr.licenses.adobe.com
-127.0.0.1 lmlicenses.wip4.adobe.com
-127.0.0.1 lm.licenses.adobe.com
-127.0.0.1 na1r.services.adobe.com
-127.0.0.1 hlrcv.stage.adobe.com
-127.0.0.1 practivate.adobe.com
-127.0.0.1 activate.adobe.com
 0.0.0.0 3dns-1.adobe.com
 0.0.0.0 3dns-2.adobe.com
 0.0.0.0 3dns-3.adobe.com
@@ -92,7 +69,6 @@
 0.0.0.0 wip.adobe.com
 0.0.0.0 wip1.adobe.com
 0.0.0.0 wip2.adobe.com
-0.0.0.0 wip3.adobe.com
 0.0.0.0 wip3.adobe.com
 0.0.0.0 wip4.adobe.com
 0.0.0.0 wwis-dubc1-vip60.adobe.com
@@ -198,7 +174,6 @@
 127.0.0.1 www.wip3.adobe.com
 127.0.0.1 www.wip4.adobe.com
 #</block-adobe>
-
 #<shock-sites>
 # For example, to block unpleasant pages, try:
 127.0.0.1 goatse.cx       # More information on sites such as
@@ -211,7 +186,6 @@
 127.0.0.1 www.oralse.ca
 127.0.0.1 goat.cx
 127.0.0.1 www.goat.cx
-
 127.0.0.1 1girl1pitcher.com
 127.0.0.1 1girl1pitcher.org
 127.0.0.1 1guy1cock.com
@@ -392,7 +366,6 @@
 127.0.0.1 youaresogay.com
 127.0.0.1 zentastic.com
 #</shock-sites>
-
 #<shortcut-examples>
 # As well by specifying the ipaddress of a server, you can gain access
 #   to some of your favourite sites with a single letter, instead of
@@ -401,7 +374,6 @@
 #216.34.181.45   s        # slashdot.org
 #74.125.127.105	g        # google.com
 #</shortcut-examples>
-
 #<hijack-sites>
 # The sites ads234.com and ads345.com -- These sites hijack internet explorer
 # and redirect all requests through their servers. You may need to use spyware
@@ -415,8 +387,6 @@
 127.0.0.1 www.ads234.com
 127.0.0.1 www.ads345.com
 #</hijack-sites>
-
-
 #<spyware-sites>
 # Spyware and user tracking
 # By entering domains here, it will prevent certain companies from
@@ -427,20 +397,18 @@
 # let them know that you have read your mail.
 # Uncomment (remove the #) the lines that you wish to block, as some
 # may provide you with services you like.
-
 #<maybe-spy>
 127.0.0.1 auto.search.msn.com  # Microsoft uses this server to redirect
-                                # mistyped URLs to search engines. They
-                                # log all such errors.
+# mistyped URLs to search engines. They
+# log all such errors.
 127.0.0.1 sitefinder.verisign.com	# Verisign has joined the game
 127.0.0.1 sitefinder-idn.verisign.com	# of trying to hijack mistyped
-					# URLs to their site.
-					# May break iOS Game Center.
-
+# URLs to their site.
+# May break iOS Game Center.
 127.0.0.1 s0.2mdn.net		# This may interfere with some streaming
-				# video on sites such as cbc.ca
+# video on sites such as cbc.ca
 127.0.0.1 ad.doubleclick.net   # This may interefere with www.sears.com
-				# and potentially other sites.
+# and potentially other sites.
 127.0.0.1 media.fastclick.net	# Likewise, this may interfere with some
 127.0.0.1 cdn.fastclick.net	# sites.
 127.0.0.1 ebay.doubleclick.net		# may interfere with ebay
@@ -448,13 +416,12 @@
 127.0.0.1 ssl.google-analytics.com
 127.0.0.1 www.google-analytics.l.google.com
 127.0.0.1 stat.livejournal.com		# There are reports that this may mess
- 					# up CSS on livejournal
+# up CSS on livejournal
 127.0.0.1 stats.surfaid.ihost.com	# This has been known cause
-					# problems with NPR.org
+# problems with NPR.org
 127.0.0.1 www.google-analytics.com		# breaks some sites
 127.0.0.1 ads.imeem.com		# Seems to interfere with the functioning of imeem.com
 #</maybe-spy>
-
 127.0.0.1 006.free-counter.co.uk
 127.0.0.1 006.freecounters.co.uk
 127.0.0.1 06272002-dbase.hitcountz.net # Web bugs in spam
@@ -483,8 +450,8 @@
 127.0.0.1 adelogs.adobe.com	#See http://www.theregister.co.uk/2014/10/07/adobe_digital_editions_4_caught_snooping_into_ebook_collections_of_users/
 127.0.0.1 ademails.com
 127.0.0.1 adlog.com.com # Used by Ziff Davis to serve
-  # ads and track users across
-  # the com.com family of sites
+# ads and track users across
+# the com.com family of sites
 127.0.0.1 ad-logics.com
 127.0.0.1 admanmail.com
 127.0.0.1 adopt.specificclick.net
@@ -766,7 +733,6 @@
 127.0.0.1 counter.webtrends.com
 127.0.0.1 counter.webtrends.net
 127.0.0.1 counter.xxxcool.com
-127.0.0.1 counter.yadro.ru
 127.0.0.1 count.paycounter.com
 127.0.0.1 count.xhit.com
 127.0.0.1 cs.sexcounter.com
@@ -1731,7 +1697,6 @@
 127.0.0.1 zz.cqcounter.com
 #</spyware-sites>
 #<malware-sites>
-
 # sites with known trojans, phishing, or other malware
 127.0.0.1 05tz2e9.com
 127.0.0.1 09killspyware.com
@@ -2037,7 +2002,6 @@
 127.0.0.1 roifmd.info
 127.0.0.1 romdiscover.com
 127.0.0.1 rtc.romdiscover.com
-127.0.0.1 r.turn.com
 127.0.0.1 russian-sex.com
 127.0.0.1 s4d.in
 127.0.0.1 safedownloadsrus166.com
@@ -2251,7 +2215,6 @@
 127.0.0.1 xponlinescanner.com
 127.0.0.1 xvrxyzba253.hotmail.ru
 127.0.0.1 xxyyzz.youcanoptout.com
-127.0.0.1 yadro.ru
 127.0.0.1 ymail-activate1.bugs3.com
 127.0.0.1 youcanoptout.com
 127.0.0.1 youcanoptout.net
@@ -2266,9 +2229,7 @@
 127.0.0.1 ztrf.net
 127.0.0.1 zviframe.biz
 #</malware-sites>
-
 #<doubleclick-sites>
-
 127.0.0.1 3ad.doubleclick.net
 127.0.0.1 ad2.doubleclick.net
 127.0.0.1 ad.3au.doubleclick.net
@@ -2575,9 +2536,7 @@
 127.0.0.1 uunyadgds1.doubleclick.net
 127.0.0.1 www.ukrpts.net
 #</doubleclick-sites>
-
 #<intellitxt-sites>
-
 127.0.0.1 1up.us.intellitxt.com
 127.0.0.1 5starhiphop.us.intellitxt.com
 127.0.0.1 askmen2.us.intellitxt.com
@@ -2682,9 +2641,7 @@
 127.0.0.1 wi-fitechnology.uk.intellitxt.com
 127.0.0.1 worldnetdaily.us.intellitxt.com
 #</intellitxt-sites>
-
 #<red-sheriff-sites>
-
 # Red Sheriff and imrworldwide.com  -- server side tracking
 127.0.0.1 devfw.imrworldwide.com
 127.0.0.1 fe1-au.imrworldwide.com
@@ -2739,9 +2696,7 @@
 127.0.0.1 www.imrworldwide.com.au
 127.0.0.1 www.redsheriff.com
 #</red-sheriff-sites>
-
 #<cydoor-sites>
-
 # cydoor -- server side tracking
 127.0.0.1 cydoor.com
 127.0.0.1 j.2004cms.com			# cydoor
@@ -2809,9 +2764,7 @@
 127.0.0.1 jwebbsense.cjt1.net
 127.0.0.1 www.cydoor.com
 #</cydoor-sites>
-
 #<2o7-sites>
-
 # 2o7.net -- server side tracking
 127.0.0.1 102.112.2o7.net
 127.0.0.1 102.122.2o7.net
@@ -3274,9 +3227,7 @@
 127.0.0.1 ziffdavisglobal.112.2o7.net
 127.0.0.1 ziffdavispennyarcade.112.2o7.net
 #</2o7-sites>
-
 #<oewabox-sites>
-
 # oewabox.at -- 'Austrian Webanalysis Society'
 127.0.0.1 1000ps.oewabox.at
 127.0.0.1 afinder.oewabox.at
@@ -3404,7 +3355,6 @@
 127.0.0.1 wohnnet.oewabox.at
 127.0.0.1 zfm.oewabox.at
 #</oewabox-sites>
-
 #<ad-sites>
 #<maybe-ads>
 #127.0.0.1 adfarm.mediaplex.com		# may interfere with ebay
@@ -3420,7 +3370,6 @@
 #127.0.0.1 ad.ca.doubleclick.net	#intereferes with video on globeandmail.com
 #127.0.0.1 transfer.go.com		#may interfere with Disney websites
 #</maybe-ads>
-
 # ads
 127.0.0.1 0101011.com
 127.0.0.1 0427d7.se
@@ -10293,7 +10242,6 @@
 127.0.0.1 zlothonline.info
 127.0.0.1 zuzzer5.com
 #</ad-sites>
-
 # https://securehomes.esat.kuleuven.be/~gacar/persistent/index.html
 #<canvass-fingerprinting-sites>
 127.0.0.1 admicro1.vcmedia.vn
@@ -10306,7 +10254,6 @@
 127.0.0.1 src.kitcode.net
 127.0.0.1 stat.ringier.cz
 #</canvass-fingerprinting-sites>
-
 #<evercookies-sites>
 127.0.0.1 ar.hao123.com
 127.0.0.1 irs01.net
@@ -10315,9 +10262,7 @@
 127.0.0.1 tv.sohu.com
 127.0.0.1 y3.ifengimg.com
 #</evercookies-sites>
-
 #<yahoo-ad-sites>
-
 # yahoo banner ads
 127.0.0.1 eur.a1.yimg.com
 127.0.0.1 in.yimg.com
@@ -10350,9 +10295,7 @@
 127.0.0.1 us.y1.yimg.com
 127.0.0.1 us.z1.yimg.com
 #</yahoo-ad-sites>
-
 #<hitbox-sites>
-
 # hitbox.com web bugs
 127.0.0.1 1cgi.hitbox.com
 127.0.0.1 2cgi.hitbox.com
@@ -10719,9 +10662,7 @@
 127.0.0.1 yang.hitbox.com
 127.0.0.1 ying.hitbox.com
 #</hitbox-sites>
-
 #<extreme-dm-sites>
-
 # www.extreme-dm.com tracking
 127.0.0.1 extreme-dm.com
 127.0.0.1 reports.extreme-dm.com
@@ -10754,9 +10695,7 @@
 127.0.0.1 z1.extreme-dm.com
 127.0.0.1 z.extreme-dm.com
 #</extreme-dm-sites>
-
 #<realmedia-sites>
-
 # realmedia.com's Open Ad Stream
 127.0.0.1 ap.oasfile.aftenposten.no
 127.0.0.1 imagenen1.247realmedia.com
@@ -10939,9 +10878,7 @@
 127.0.0.1 oas.villagevoice.com
 127.0.0.1 oas.vtsgonline.com
 #</realmedia-sites>
-
 #<fastclick-sites>
-
 # fastclick banner ads
 127.0.0.1 media1.fastclick.net
 127.0.0.1 media2.fastclick.net
@@ -11044,9 +10981,7 @@
 127.0.0.1 media99.fastclick.net
 127.0.0.1 fastclick.net
 #</fastclick-sites>
-
 #<belo-interactive-sites>
-
 # belo interactive ads
 127.0.0.1 te.about.com
 127.0.0.1 te.adlandpro.com
@@ -11092,9 +11027,7 @@
 127.0.0.1 te.versiontracker.com
 127.0.0.1 te.wsls.com
 #</belo-interactive-sites>
-
 #<popup-traps>
-
 # popup traps -- sites that bounce you around or won't let you leave
 127.0.0.1 24hwebsex.com
 127.0.0.1 adultfriendfinder.com
@@ -11125,11 +11058,9 @@
 127.0.0.1 www.xxxtoolbar.com
 127.0.0.1 www.yourfuckbook.com
 #</popup-traps>
-
 #<ecard-scam-sites>
-
 # malicious e-card -- these sites send out mass quantities of spam
-	# and some distribute adware and spyware
+# and some distribute adware and spyware
 127.0.0.1 123greetings.com	# contains one link to distributor of adware or spyware
 127.0.0.1 2000greetings.com
 127.0.0.1 celebwelove.com
@@ -11154,9 +11085,7 @@
 127.0.0.1 www.laugh-mail.com
 127.0.0.1 www.laugh-mail.net
 #</ecard-scam-sites>
-
 #<IVW-sites>
-
 # European network of tracking sites
 127.0.0.1 0ivwbox.de
 127.0.0.1 1ivwbox.de
@@ -11563,11 +11492,9 @@
 127.0.0.1 yvwbox.de
 127.0.0.1 zivwbox.de
 #</IVW-sites>
-
 #<wiki-spam-sites>
-
 # message board and wiki spam -- these sites are linked in
-	# message board spam and are unlikely to be real sites
+# message board spam and are unlikely to be real sites
 127.0.0.1 10pg.scl5fyd.info
 127.0.0.1 21jewelry.com
 127.0.0.1 24x7.soliday.org
@@ -12377,12 +12304,9 @@
 127.0.0.1 zyrtec.3.p2l.info
 127.0.0.1 zyrtec.4.p2l.info
 #</wiki-spam-sites>
-
 #<Windows10>
-
 # Windows 10 reporting domains. These are commented out by default
 #	as they may interfere with some services.
-
 #127.0.0.1 a-0001.a-msedge.net
 #127.0.0.1 choice.microsoft.com
 #127.0.0.1 choice.microsoft.com.nstac.net
